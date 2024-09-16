@@ -1,9 +1,11 @@
 @tailwind base;
-@tai components;
+@tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: JetBrains Mono,Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,6 +17,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-text:hover {
+  text-shadow: 1px 1px 30px #bc6bf1, 0 0 30px #bc6bf1, 0 0 20px #bc6bf1, 0 0 10px #bc6bf1 ;
 }
 
 @media (prefers-color-scheme: light) {
