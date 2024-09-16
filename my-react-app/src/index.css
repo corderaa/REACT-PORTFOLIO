@@ -23,6 +23,15 @@
   text-shadow: 1px 1px 30px #bc6bf1, 0 0 30px #bc6bf1, 0 0 20px #bc6bf1, 0 0 10px #bc6bf1 ;
 }
 
+.grid-container {
+  width: 100%;
+  height: 30rem;
+  background-color: #41414179;
+  border-radius: 20px;
+  border: #747474 solid 1px;
+  
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
